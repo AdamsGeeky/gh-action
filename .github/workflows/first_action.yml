@@ -6,7 +6,7 @@ jobs:
     test-job: # identifier
         runs-on: ubuntu-latest
         steps:
-            - name: Print Hello World
+            - name: Print Hello 
                 run: echo "Hello World"
             - name: Print Date
                 run: date
